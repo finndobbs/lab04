@@ -7,31 +7,40 @@
 	<body>
 		<form action='customerBackend.php' method='post'>
 			
-
+			<div>
 			Name
-			<input type='email' name='name' required><br>
+			<input type='email' name='name' placeholder='email' 
+			       autocomplete='on' required autofocus><br>
+			</div>
+
+			<div>
 			Password
-			<input type='password' name='pw' required><br>
+			<input type='password' name='pw' placeholder='password' 
+			       required><br>
+			</div>
 
 			<div>
 			    Watch<br>
 			    price: $500.00<br>
 			    Quantity: 
-			    <input type='number' min='0' name='item1'><br>
+			    <input type='number' min='0' value='0' 
+			           name='item1' required><br>
 			</div>
 
 			<div>
 		 	    Pencil<br>
 			    Price: $2.00<br>
 			    Quantity: 
-			    <input type='number' min='0' name='item2'><br>
+			    <input type='number' min='0' value='0' 
+			           name='item2' required><br>
 			</div>
 
 			<div>
 			    Toy Car<br>
 			    Price: $10.00<br>
 			    Quantity: 
-			    <input type='number' min='0' name='item3'><br>
+			    <input type='number' min='0' value='0' 
+			           name='item3' required><br>
 			</div>
 
 			<h4>Shipping</h4>
