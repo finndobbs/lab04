@@ -30,4 +30,8 @@ function validate(){
 		alert('please enter a quantity of toy cars (0 is acceptable)');
 		return false;
 	}
+	if ((item1 + item2 + item3) == 0){
+		alert('you have not selected any items to purchase');
+		return false;
+	} 
 }
