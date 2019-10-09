@@ -17,3 +17,11 @@ div {
 input {
 	padding:7px;
 }
+
+table, th, td {
+	border:1px solid black;
+}
+
+th, tfoot{
+	background-color:#069;
+}
