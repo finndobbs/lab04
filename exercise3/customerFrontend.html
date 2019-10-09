@@ -4,14 +4,44 @@
 	</head>
 	<body>
 		<form action='customerBackend.php' method='post'>
+			
+
+			Name
+			<input type='email' name='name' required><br>
+			Password
+			<input type='password' name='pw' required><br>
+
+			<div>
+			    Watch<br>
+			    price: $500.00<br>
+			    Quantity: 
+			    <input type='number' min='0' name='item1'><br>
+			</div>
+
+			<div>
+		 	    Pencil<br>
+			    Price: $2.00<br>
+			    Quantity: 
+			    <input type='number' min='0' name='item2'><br>
+			</div>
+
+			<div>
+			    Toy Car<br>
+			    Price: $10.00<br>
+			    Quantity: 
+			    <input type='number' min='0' name='item3'><br>
+			</div>
+
 			<h4>Shipping</h4>
-			<input type='radio' name='shipping' value='Free'>Free 7 Day<br>
-			<input type='radio' name='shipping' value='Standard'>
+			<input type='radio' name='shipping' value='Free' required>
+			Free 7 Day<br>
+			<input type='radio' name='shipping' value='Standard' required>
 			$5.00 2 Day<br>
-			<input type='radio' name='shipping' value='Overnight'>
+			<input type='radio' name='shipping' value='Overnight' required>
 			$50.00 Overnight<br>
 
 			<input type='submit'>
+			<input type='reset'>
 		</form>
 	</body>
 </html>
